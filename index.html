@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike Shop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"/>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Nike<span>Shop</span>.</a>
+      <div class="navbar-nav">
+        <a href="#home">HOME</a>
+        <a href="#about">TENTANG KAMI</a>
+        <a href="#Produk">PRODUK KAMI</a>
+        <a href="#Kontak">CONTACT</a>
+      </div>
+      <div class="navbar-extra">
+      <a href="#" id="search"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="gift"><i data-feather="gift"></i></a>
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <main class="content">
+        <h1> Tingkatkan Gaya Anda <span>Bersama Produk Berkualitas Kami</span></h1>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+
+<section id="about" class="about">
+  <h2>Tentang Kami</h2>
+
+  <div class="row">
+    <div class="about-img">
+      <img src="img/tentangkami.jpg" alt="Tentang Kami">
+    </div>
+    <div class="content">
+      <h3>Kenapa memilih sepatu kami?</h3>
+      <p> karena merek tersebut terkenal dengan kualitasnya yang terjamin, desain yang stylish, dan inovasi teknologi dalam setiap produknya. 
+	      Sepatu Nike juga sering diakui karena kenyamanan dan daya tahan yang baik, membuatnya cocok untuk berbagai aktivitas, dari olahraga hingga gaya sehari-hari. 
+		  Selain itu, Nike sering kali menjadi pilihan bagi mereka yang menghargai citra merek yang kuat dan asosiasi dengan atlet terkenal dan tim olahraga.</p>
+    </div>
+  </div>
+</section>
+
+<section id="Produk" class="Produk">
+  <h2>Produk Kami</h2>
+  <div class="row">
+    <div  class="Produk-card">
+    <img src="img/produk/produk1.jpg" alt="Nike Jordan" class="Produk-card-img">
+    <h3 class="Produk-card-title">- Nike Jordan -</h3>
+    <p class="Produk-card-price">IDR 450k</p>
+    </div>
+    <div  class="Produk-card">
+    <img src="img/produk/produk2.jpg" alt="NIke" class="Produk-card-img">
+    <h3 class="Produk-card-title">- Nike -</h3>
+    <p class="Produk-card-price">IDR 480k</p>
+    </div>
+    <div  class="Produk-card">
+    <img src="img/produk/produk3.jpg" alt="Nike" class="Produk-card-img">
+    <h3 class="Produk-card-title">- Nike -</h3>
+    <p class="Produk-card-price">IDR 500k</p>
+    </div>
+  </div>
+</section>
+
+<section id="Kontak" class="Kontak">
+  <h2>Kontak Kami</h2>
+  <div class="row">
+    <form action="">
+      <div class="input-group">
+        <i data-feather="user"></i>
+        <input type="text" placeholder="nama">
+      </div>
+
+      <div class="input-group">
+        <i data-feather="mail"></i>
+        <input type="text" placeholder="email">
+      </div>
+
+      <div class="input-group">
+        <i data-feather="phone"></i>
+        <input type="text" placeholder="no hp">
+      </div>
+
+      <button type="submit" class="btn">kirim pesan</button>
+    </form>
+  </div>
+</section>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
